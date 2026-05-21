@@ -1,0 +1,65 @@
+[
+    {
+        "label": "print_out",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "print_out",
+        "description": "print_out",
+        "detail": "print_out",
+        "documentation": {}
+    },
+    {
+        "label": "prod_number",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def prod_number(num1: int,\n                num2: int) -> int:   # type hints\n    \"\"\"Return the product of 2 numbers\"\"\"\n    return num1 * num2\ndef add_number(num1: int,\n               num2: int) -> int:    # type hints\n    \"\"\"Return the addition of 2 numbers\"\"\"\n    return num1 + num2\ndef divide_number(num1: int,\n                  num2: int) -> float:    # type hints",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "add_number",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def add_number(num1: int,\n               num2: int) -> int:    # type hints\n    \"\"\"Return the addition of 2 numbers\"\"\"\n    return num1 + num2\ndef divide_number(num1: int,\n                  num2: int) -> float:    # type hints\n    \"\"\"Return the division of 2 numbers\"\"\"\n    return num1 / num2\ndef addition_example(old_inventory: int, new_inventory: int) -> int:\n    \"\"\"_summary_",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "divide_number",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def divide_number(num1: int,\n                  num2: int) -> float:    # type hints\n    \"\"\"Return the division of 2 numbers\"\"\"\n    return num1 / num2\ndef addition_example(old_inventory: int, new_inventory: int) -> int:\n    \"\"\"_summary_\n    Args:\n        old_inventory (int): _description_\n        new_inventory (int): _description_\n    Returns:",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "addition_example",
+        "kind": 2,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "def addition_example(old_inventory: int, new_inventory: int) -> int:\n    \"\"\"_summary_\n    Args:\n        old_inventory (int): _description_\n        new_inventory (int): _description_\n    Returns:\n        int: _description_\n    \"\"\"\n    y = old_inventory + new_inventory + X_INIT\n    result = print_out.double_it(y)",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "print_inputs_out",
+        "kind": 2,
+        "importPath": "print_out",
+        "description": "print_out",
+        "peekOfCode": "def print_inputs_out(x: int | float | str | list) -> int | float | str | list:\n    \"\"\"Print and return the input.\n    Args:\n        x: An integer, float, string, or list\n    Returns:\n        The input value\n    \"\"\"\n    return x\ndef double_it(x: int | float | str | list) -> int | float | str | list:\n    \"\"\"Double a numeric value.",
+        "detail": "print_out",
+        "documentation": {}
+    },
+    {
+        "label": "double_it",
+        "kind": 2,
+        "importPath": "print_out",
+        "description": "print_out",
+        "peekOfCode": "def double_it(x: int | float | str | list) -> int | float | str | list:\n    \"\"\"Double a numeric value.\n    Args:\n        x: An integer or float to double\n    Returns:\n        The value doubled\n    \"\"\"\n    return x * 2\nif __name__ == \"__main__\":\n    print(double_it(2))",
+        "detail": "print_out",
+        "documentation": {}
+    }
+]
